@@ -63,7 +63,7 @@ export default function Page() {
             {/* Foto Destra */}
             <img 
               className="h-[100px] md:h-[150px] rounded-2xl shadow-md object-cover" 
-              src="public/foto2.jpg" 
+              src="https://imgur.com/a/41dglcr" 
               alt="foto 2" 
             />
           </div>
