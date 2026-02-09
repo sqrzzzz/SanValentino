@@ -48,27 +48,27 @@ export default function Page() {
           <div className="flex items-center justify-center gap-2 md:gap-6 mb-4">
             {/* Foto Sinistra */}
             <img 
-              className="h-[100px] md:h-[150px] rounded-2xl shadow-md object-cover" 
+              className="h-[150px] md:h-[250px] w-auto rounded-2xl shadow-2xl object-cover" 
               src="https://i.imgur.com/0qDwtLV.jpeg" 
               alt="foto 1" 
             />
 
             {/* GIF Centrale */}
             <img
-              className="h-[150px] md:h-[200px]"
+              className="h-[200px] md:h-[300px] w-auto"
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
               alt="bear with roses"
             />
 
             {/* Foto Destra */}
             <img 
-              className="h-[100px] md:h-[150px] rounded-2xl shadow-md object-cover" 
+              className="h-[150px] md:h-[250px] w-auto rounded-2xl shadow-2xl object-cover" 
               src="https://i.imgur.com/UVK3kTW.jpeg" 
               alt="foto 2" 
             />
           </div>
 
-          <h1 className="my-4 text-4xl font-bold text-center">Vuoi essere la mia Valentina?</h1>
+          <h1 className="my-4 text-4xl font-bold text-center">Buon San Valentino Amore, vuoi scoprire cosa ti ho preparato?</h1>
           
           <div className="flex items-center">
             <button
