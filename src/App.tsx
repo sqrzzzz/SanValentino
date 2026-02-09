@@ -49,7 +49,7 @@ export default function Page() {
             {/* Foto Sinistra */}
             <img 
               className="h-[100px] md:h-[150px] rounded-2xl shadow-md object-cover" 
-              src="/IMG_3820" 
+              public="/IMG_3820" 
               alt="foto 1" 
             />
 
@@ -63,7 +63,7 @@ export default function Page() {
             {/* Foto Destra */}
             <img 
               className="h-[100px] md:h-[150px] rounded-2xl shadow-md object-cover" 
-              src="/IMG_3819" 
+              public="/IMG_3819" 
               alt="foto 2" 
             />
           </div>
