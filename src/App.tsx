@@ -92,7 +92,7 @@ export default function Page() {
           <h2 className="text-3xl font-bold text-pink-600 mb-6 text-center">
             Per continuare, completa la frase magica:
           </h2>
-          <p className="text-2xl mb-4 tracking-widest font-mono font-bold">I _ _ _ _ _ _ U</p>
+          <p className="text-2xl mb-4 tracking-widest font-mono font-bold">I - _ _ _ _ - _ _ U</p>
           <input
             type="text"
             placeholder="Scrivi qui..."
@@ -109,7 +109,7 @@ export default function Page() {
         <div className="flex flex-col items-center text-center max-w-lg">
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="kiss" />
           <div className="my-4 text-5xl font-bold text-pink-600">
-            BRAVISSIMA POOKIE!! ❤️
+            BRAVISSIMA AMORE !! ❤️
           </div>
           <div className="bg-white p-6 rounded-3xl shadow-xl border-2 border-pink-200">
             <p className="text-xl text-gray-700 leading-relaxed italic">
