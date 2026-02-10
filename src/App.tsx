@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 // --- CONFIGURAZIONE FOTO MEMORY ---
 // Ho messo le tue 2 foto ripetute, ma puoi aggiungere altri link qui sotto
 const MEMORY_IMAGES = [
-  "https://i.imgur.com/0qDwtLV.jpeg", 
-  "https://i.imgur.com/UVK3kTW.jpeg", 
-  "https://i.imgur.com/0qDwtLV.jpeg", // Sostituisci se ne hai altre
-  "https://i.imgur.com/UVK3kTW.jpeg", // Sostituisci se ne hai altre
+  "https://i.imgur.com/CwHxmMx.jpeg", 
+  "https://i.imgur.com/XvnwP6M.jpeg", 
+  "https://i.imgur.com/vT2XlgT.jpeg", 
+  "https://i.imgur.com/yc9iNN3.jpeg", 
 ];
 
 export default function Page() {
@@ -129,7 +129,7 @@ export default function Page() {
               <div 
                 key={index} 
                 onClick={() => handleCardClick(index)}
-                className={`w-20 h-20 md:w-28 md:h-28 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
+                className={`w-40 h-20 md:w-28 md:h-28 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
               >
                 {card.flipped || card.matched ? (
                   <img src={card.url} className="w-full h-full object-cover rounded-xl border-2 border-pink-200" />
