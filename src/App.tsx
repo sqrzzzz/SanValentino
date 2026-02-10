@@ -129,7 +129,7 @@ export default function Page() {
               <div 
                 key={index} 
                 onClick={() => handleCardClick(index)}
-                className={`w-40 h-20 md:w-28 md:h-28 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
+                className={`w-24 h-24 md:w-40 md:h-40 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
               >
                 {card.flipped || card.matched ? (
                   <img src={card.url} className="w-full h-full object-cover rounded-xl border-2 border-pink-200" />
