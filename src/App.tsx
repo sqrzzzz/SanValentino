@@ -124,7 +124,7 @@ export default function Page() {
       {step === 2 && (
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-bold text-pink-600 mb-6">Trova le coppie delle nostre foto! ❤️</h2>
-          <div className="grid grid-cols-4 gap-2 md:gap-4 max-w-md">
+          <div className="grid grid-cols-4 gap-2 md:gap-4 max-w-4xl">
             {cards.map((card, index) => (
               <div 
                 key={index} 
