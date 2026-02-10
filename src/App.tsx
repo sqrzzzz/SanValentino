@@ -124,12 +124,12 @@ export default function Page() {
       {step === 2 && (
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-bold text-pink-600 mb-6">Trova le coppie delle nostre foto! ❤️</h2>
-          <div className="grid grid-cols-4 gap-2 md:gap-4 max-w-4xl">
+          <div className="grid grid-cols-4 gap-2 md:gap-4 max-w-md">
             {cards.map((card, index) => (
               <div 
                 key={index} 
                 onClick={() => handleCardClick(index)}
-                className={`w-34 h-34 md:w-50 md:h-50 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
+                className={`w-24 h-24 md:w-40 md:h-40 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
               >
                 {card.flipped || card.matched ? (
                   <img src={card.url} className="w-full h-full object-cover rounded-xl border-2 border-pink-200" />
