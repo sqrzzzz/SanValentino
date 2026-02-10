@@ -129,7 +129,7 @@ export default function Page() {
               <div 
                 key={index} 
                 onClick={() => handleCardClick(index)}
-                className={`w-24 h-24 md:w-40 md:h-40 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
+                className={`w-34 h-34 md:w-50 md:h-50 cursor-pointer rounded-xl transition-all shadow-lg flex items-center justify-center text-white text-3xl ${card.flipped || card.matched ? 'bg-white' : 'bg-pink-400'}`}
               >
                 {card.flipped || card.matched ? (
                   <img src={card.url} className="w-full h-full object-cover rounded-xl border-2 border-pink-200" />
@@ -145,7 +145,7 @@ export default function Page() {
       {step === 3 && (
         <div className="flex flex-col items-center text-center max-w-lg animate-fadeIn">
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="kiss" />
-          <div className="my-4 text-5xl font-bold text-pink-600">BRAVISSIMA POOKIE!! ❤️</div>
+          <div className="my-4 text-5xl font-bold text-pink-600">BRAVISSIMA AMORE!! ❤️</div>
           <div className="bg-white p-8 rounded-3xl shadow-2xl border-2 border-pink-100">
             <p className="text-2xl text-gray-700 leading-relaxed italic">
               "Sei stata bravissima a superare tutte le sfide! Sei la mia Valentina speciale..."
