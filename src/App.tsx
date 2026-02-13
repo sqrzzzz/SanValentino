@@ -147,8 +147,18 @@ export default function Page() {
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="kiss" />
           <div className="my-4 text-5xl font-bold text-pink-600">BRAVISSIMA AMORE!! ❤️</div>
           <div className="bg-white p-8 rounded-3xl shadow-2xl border-2 border-pink-100">
-            <p className="text-2xl text-gray-700 leading-relaxed italic">
-              "Sei stata bravissima a superare tutte le sfide! Sei la mia Valentina speciale..."
+            <p className="text-2xl text-gray-700 leading-relaxed italic whitespace-pre-line">
+              "Caro amorino patatino,
+              In questo momento di lontananza ho pensato a diverse idee per cercare di sorprenderti (e te in questo momento starai 
+              pensando e perché cazzo non sei venuto qua? E effettivamente hai anche ragione ahahah) ho così pensato
+              di farti qualcosa di alternativo ma allo stesso tempo semplice ovvero scriverti qualcosa.
+              Anche se magari alcune volte può non sembrare, mi manchi tanto e non è facile. 
+              Grazie per tutto il supporto che mi dai nonostante la distanza,
+              Non vedo l’ora di poter mangiare di nuovo una pizza con te, ti amo tanto.
+
+              Enrico
+              
+              PS. Vediamo se ti ricordi dove sono state fatte le foto che ho messo"
             </p>
           </div>
         </div>
