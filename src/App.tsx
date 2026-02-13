@@ -147,7 +147,7 @@ export default function Page() {
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="kiss" />
           <div className="my-4 text-5xl font-bold text-pink-600">BRAVISSIMA AMORE!! ❤️</div>
           <div className="bg-white p-8 rounded-3xl shadow-2xl border-2 border-pink-100">
-            <p className="text-2xl text-gray-700 leading-relaxed italic whitespace-pre-line">
+            <p className="text-xl text-gray-700 leading-relaxed italic whitespace-pre-line">
               "Caro amorino patatino,
               In questo momento di lontananza ho pensato a diverse idee per cercare di sorprenderti (e te in questo momento starai 
               pensando e perché cazzo non sei venuto qua? E effettivamente hai anche ragione ahahah) ho così pensato
