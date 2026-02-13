@@ -150,10 +150,10 @@ export default function Page() {
             <p className="text-xl text-gray-700 leading-relaxed italic whitespace-pre-line">
               "Caro amorino patatino,
               In questo momento di lontananza ho pensato a diverse idee per cercare di sorprenderti (e te in questo momento starai 
-              pensando e perché cazzo non sei venuto qua? E effettivamente hai anche ragione ahahah) ho così pensato
+              pensando e perché allora non sei venuto qua? E effettivamente hai anche ragione ahahah) ho così pensato
               di farti qualcosa di alternativo ma allo stesso tempo semplice ovvero scriverti qualcosa.
               Anche se magari alcune volte può non sembrare, mi manchi tanto e non è facile. 
-              Grazie per tutto il supporto che mi dai nonostante la distanza,
+              Grazie per tutto il supporto che mi dai nonostante la distanza.
               Non vedo l’ora di poter mangiare di nuovo una pizza con te, ti amo tanto.
 
               Enrico
