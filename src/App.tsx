@@ -106,7 +106,7 @@ export default function Page() {
         <div className="flex flex-col items-center w-full px-4">
           {/*<img className="h-48 mb-6" src="https://media.tenor.com/T_7_7vA696AAAAAi/bear-cute.gif" alt="wait" />*/}
           <h2 className="text-2xl md:text-3xl font-bold text-pink-600 mb-6 text-center">Completa la frase magica:</h2>
-          <p className="text-3xl md:text-3xl mb-6 tracking-[0.2em] font-mono font-bold text-pink-400">I - _ _ _ _ - _ _ U</p>
+          <p className="text-3xl md:text-3xl mb-6 tracking-[0.2em] font-mono font-bold text-pink-400">_ - _ _ _ _ - _ _ _</p>
           <input 
             type="text" 
             className="w-full max-w-sm border-4 border-pink-300 rounded-full px-6 py-4 text-xl text-center focus:outline-none focus:border-pink-500 shadow-md" 
