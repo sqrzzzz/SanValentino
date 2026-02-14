@@ -104,7 +104,7 @@ export default function Page() {
       {/* STEP 1: PAROLA CHIAVE */}
       {step === 1 && (
         <div className="flex flex-col items-center w-full px-4">
-          <img className="h-48 mb-6" src="https://media.tenor.com/T_7_7vA696AAAAAi/bear-cute.gif" alt="wait" />
+          {/*<img className="h-48 mb-6" src="https://media.tenor.com/T_7_7vA696AAAAAi/bear-cute.gif" alt="wait" />*/}
           <h2 className="text-2xl md:text-3xl font-bold text-pink-600 mb-6 text-center">Completa la frase magica:</h2>
           <p className="text-3xl md:text-4xl mb-6 tracking-[0.2em] font-mono font-bold text-pink-400">I - _ _ _ _ - _ _ U</p>
           <input 
