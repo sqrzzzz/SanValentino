@@ -80,7 +80,7 @@ export default function Page() {
           </div>
           
           <h1 className="text-2xl md:text-4xl font-bold text-center italic mb-8 px-2">
-            Buon San Valentino Amore, vuoi scoprire cosa ti ho preparato?
+            Buon San Valentino Amore ❤️, vuoi scoprire cosa ti ho preparato?
           </h1>
           
           <div className="flex flex-col md:flex-row items-center gap-4">
