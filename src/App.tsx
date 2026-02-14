@@ -86,7 +86,7 @@ export default function Page() {
           <div className="flex flex-col md:flex-row items-center gap-4">
             <button 
               className="rounded bg-green-500 px-8 py-4 font-bold text-white hover:bg-green-700 transition-all shadow-lg" 
-              style={{ fontSize: Math.min(yesButtonSize, 100) }} // Limite per non rompere il layout
+              /* style={{ fontSize: Math.min(yesButtonSize, 100) }} */// Limite per non rompere il layout
               onClick={() => setStep(1)}
             >
               Sì
